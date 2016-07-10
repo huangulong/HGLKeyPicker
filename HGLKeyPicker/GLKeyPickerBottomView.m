@@ -1,6 +1,5 @@
 //
 //  ECKeyPickerBottomView.m
-//  MaMiSchool
 //
 //  Created by huanggulong on 16/7/9.
 //  Copyright © 2016年 历山大亚. All rights reserved.
