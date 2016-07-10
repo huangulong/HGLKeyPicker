@@ -45,4 +45,7 @@
            showWithAnimation  //该方法不掉用将无法现实
   
   
-注＊ GLKeyPickerBottomViewDataSource里面几个代理方法类似于 UITableViewDataSource
+注＊ 1.GLKeyPickerBottomViewDataSource里面几个代理方法类似于 UITableViewDataSource
+     2.CocoPods使用
+
+     pod 'HGLKeyPicker' , :git => 'https://github.com/huangulong/HGLKeyPicker.git'
