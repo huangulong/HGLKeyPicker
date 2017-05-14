@@ -6,7 +6,8 @@
 //
 
 #import "GLKeyPickerBottomView.h"
-#import <Masonry.h>
+#include <Masonry.h>
+//#import <Masonry.h>
 
 NSString *const GLKeyPickerBottomViewDateKey = @"keyPickerBottomViewDateKey";//时间key
 NSString *const GLKeyPickerBottomViewListKey = @"keyPickerBottomViewListKey";//数组key
