@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49ECEDCAFB41A244F8F805BB /* libPods-HGLKeyPickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF69BBBF53936E76AD70A114 /* libPods-HGLKeyPickerDemo.a */; };
 		854DE5A81D3205BA0066503F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DE5A71D3205BA0066503F /* main.m */; };
 		854DE5AB1D3205BA0066503F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DE5AA1D3205BA0066503F /* AppDelegate.m */; };
 		854DE5AE1D3205BA0066503F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DE5AD1D3205BA0066503F /* ViewController.m */; };
@@ -15,9 +14,12 @@
 		854DE5B31D3205BA0066503F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854DE5B21D3205BA0066503F /* Assets.xcassets */; };
 		854DE5B61D3205BA0066503F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DE5B41D3205BA0066503F /* LaunchScreen.storyboard */; };
 		854DE5C01D3208940066503F /* GLKeyPickerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DE5BF1D3208940066503F /* GLKeyPickerBottomView.m */; };
+		DAB6D57F2480AB25651000B6 /* libPods-HGLKeyPickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F0D608ECECB3CD2C3AFAC /* libPods-HGLKeyPickerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D8F0D608ECECB3CD2C3AFAC /* libPods-HGLKeyPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGLKeyPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EFC8522B62F52B7F4C03BE /* Pods-HGLKeyPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGLKeyPickerDemo.debug.xcconfig"; path = "Target Support Files/Pods-HGLKeyPickerDemo/Pods-HGLKeyPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		854DE5A31D3205BA0066503F /* HGLKeyPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGLKeyPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854DE5A71D3205BA0066503F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		854DE5A91D3205BA0066503F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,9 +32,7 @@
 		854DE5B71D3205BA0066503F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854DE5BE1D3208940066503F /* GLKeyPickerBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKeyPickerBottomView.h; sourceTree = "<group>"; };
 		854DE5BF1D3208940066503F /* GLKeyPickerBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKeyPickerBottomView.m; sourceTree = "<group>"; };
-		AF69BBBF53936E76AD70A114 /* libPods-HGLKeyPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGLKeyPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1989D12F1B0A9F9CEAF50E8 /* Pods-HGLKeyPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGLKeyPickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGLKeyPickerDemo/Pods-HGLKeyPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E3498C3A14D2DE5496F7EF9C /* Pods-HGLKeyPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGLKeyPickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGLKeyPickerDemo/Pods-HGLKeyPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F8E7122CF5F98EFC4A796FC4 /* Pods-HGLKeyPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGLKeyPickerDemo.release.xcconfig"; path = "Target Support Files/Pods-HGLKeyPickerDemo/Pods-HGLKeyPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,29 +40,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49ECEDCAFB41A244F8F805BB /* libPods-HGLKeyPickerDemo.a in Frameworks */,
+				DAB6D57F2480AB25651000B6 /* libPods-HGLKeyPickerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		187BAB2615F7542B26135980 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E1989D12F1B0A9F9CEAF50E8 /* Pods-HGLKeyPickerDemo.debug.xcconfig */,
-				E3498C3A14D2DE5496F7EF9C /* Pods-HGLKeyPickerDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		854DE59A1D3205BA0066503F = {
 			isa = PBXGroup;
 			children = (
 				854DE5A51D3205BA0066503F /* HGLKeyPickerDemo */,
 				854DE5A41D3205BA0066503F /* Products */,
-				187BAB2615F7542B26135980 /* Pods */,
-				B7908376D2355886C3EDF51E /* Frameworks */,
+				856D694267F6F12660E0064A /* Pods */,
+				C020B5C9A5736B09786BA297 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,13 +96,24 @@
 				854DE5BE1D3208940066503F /* GLKeyPickerBottomView.h */,
 				854DE5BF1D3208940066503F /* GLKeyPickerBottomView.m */,
 			);
-			path = HGLKeyPicker;
+			name = HGLKeyPicker;
+			path = GLKeyPicker;
 			sourceTree = SOURCE_ROOT;
 		};
-		B7908376D2355886C3EDF51E /* Frameworks */ = {
+		856D694267F6F12660E0064A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF69BBBF53936E76AD70A114 /* libPods-HGLKeyPickerDemo.a */,
+				79EFC8522B62F52B7F4C03BE /* Pods-HGLKeyPickerDemo.debug.xcconfig */,
+				F8E7122CF5F98EFC4A796FC4 /* Pods-HGLKeyPickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C020B5C9A5736B09786BA297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F0D608ECECB3CD2C3AFAC /* libPods-HGLKeyPickerDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,12 +125,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 854DE5BA1D3205BA0066503F /* Build configuration list for PBXNativeTarget "HGLKeyPickerDemo" */;
 			buildPhases = (
-				BA2390413CC735A3700CC64B /* Check Pods Manifest.lock */,
+				46D7FF7864B28290AA6E2D89 /* [CP] Check Pods Manifest.lock */,
 				854DE59F1D3205BA0066503F /* Sources */,
 				854DE5A01D3205BA0066503F /* Frameworks */,
 				854DE5A11D3205BA0066503F /* Resources */,
-				FDF4EFBD63D175EF4FF87C71 /* Embed Pods Frameworks */,
-				92F2160E1E771276F6DE42E6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +158,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -185,49 +186,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		92F2160E1E771276F6DE42E6 /* Copy Pods Resources */ = {
+		46D7FF7864B28290AA6E2D89 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGLKeyPickerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGLKeyPickerDemo/Pods-HGLKeyPickerDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA2390413CC735A3700CC64B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FDF4EFBD63D175EF4FF87C71 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGLKeyPickerDemo/Pods-HGLKeyPickerDemo-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -350,7 +328,7 @@
 		};
 		854DE5BB1D3205BA0066503F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1989D12F1B0A9F9CEAF50E8 /* Pods-HGLKeyPickerDemo.debug.xcconfig */;
+			baseConfigurationReference = 79EFC8522B62F52B7F4C03BE /* Pods-HGLKeyPickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -365,7 +343,7 @@
 		};
 		854DE5BC1D3205BA0066503F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3498C3A14D2DE5496F7EF9C /* Pods-HGLKeyPickerDemo.release.xcconfig */;
+			baseConfigurationReference = F8E7122CF5F98EFC4A796FC4 /* Pods-HGLKeyPickerDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
