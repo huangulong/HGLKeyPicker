@@ -46,6 +46,9 @@ NSString *const GLKeyPickerBottomViewListKey = @"keyPickerBottomViewListKey";//æ
             }];
         }else{
             UIDatePicker *datePicker = [[UIDatePicker alloc] initWithFrame:CGRectZero];
+            if (@available(iOS 13.4, *)) {
+                datePicker.preferredDatePickerStyle = UIDatePickerStyleWheels;
+            }
             [view addSubview:datePicker];
             _datePicker = datePicker;
             [datePicker mas_makeConstraints:^(MASConstraintMaker *make) {
