@@ -109,7 +109,7 @@ NSString *const GLKeyPickerBottomViewListKey = @"keyPickerBottomViewListKey";//æ
 - (void)showWithAnimation:(BOOL)animation{
     isAnimation = animation;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [_contentView mas_updateConstraints:^(MASConstraintMaker *make) {
+        [self->_contentView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.bottom.offset(0);
         }];
         if (animation) {
@@ -121,7 +121,7 @@ NSString *const GLKeyPickerBottomViewListKey = @"keyPickerBottomViewListKey";//æ
 }
 
 #pragma mark - private
-- (void)quitCurrentView:(void(^)())completeBlock{
+- (void)quitCurrentView:(void(^)(void))completeBlock{
     if (isAnimation) {
         [_contentView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.bottom.offset(260);
