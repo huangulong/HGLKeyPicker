@@ -203,7 +203,6 @@ NSString *const GLKeyPickerBottomViewListKey = @"keyPickerBottomViewListKey";//æ
                         NSInteger selectedRow = [self.pickerView selectedRowInComponent:i];
                         [array addObject:[NSNumber numberWithInteger:selectedRow]];
                     }
-                    
                     dict = @{GLKeyPickerBottomViewListKey:array};
                 }else{
                     dict = @{GLKeyPickerBottomViewDateKey:self.datePicker.date};
@@ -240,7 +239,6 @@ NSString *const GLKeyPickerBottomViewListKey = @"keyPickerBottomViewListKey";//æ
     if (self.pickerType == GLKeyPickerBottomViewShowOther) {
         NSMutableArray *array = [NSMutableArray array];
         for (int i = 0; i < _pickerView.numberOfComponents; i ++) {
-            
             NSNumber *number = [NSNumber numberWithInteger:[_pickerView selectedRowInComponent:i]];
             [array addObject:number];
         }
